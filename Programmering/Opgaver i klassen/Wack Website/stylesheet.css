@@ -1,0 +1,25 @@
+.Bois
+{
+    color: red;
+    border-style: dotted;
+    width: 10vw;
+}
+
+.Puta
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; right:90vw;}
+    50%  {background-color:yellow; left:100vh; top:0px;}
+    100%  {background-color:blue; left:0px; right:90vh;}
+  }
